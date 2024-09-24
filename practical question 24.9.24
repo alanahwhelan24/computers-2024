@@ -1,0 +1,13 @@
+score = int(input("Please enter the house score:"))
+if (score <=10):
+    print("energy rating = F")
+elif (score <=20):
+    print("energy rating = E")
+elif (score <=30):
+    print("energy rating = D")
+elif (score <=40):
+    print("energy rating = C")
+elif (score <=70):
+    print("energy rating = B")
+elif (score <=100):
+    print("energy rating = A")
