@@ -1,0 +1,62 @@
+#challenge 1
+#answer=input("What is your age?")
+#print("Your age is:"+answer)
+
+#challenge 2
+#num1= float(input("enter your first number: "))
+#num2= float(input("enter your second number: "))
+#av=(num1 + num2)/2
+#print("Avredge of both numbers is: ",av)
+
+#challenge 7
+#score = int(input('how many hours on avredge do you spend watching tv per day?'))
+#if (score >=5) :
+#   print('fresh air beats channel flicking')
+#elif (score <=4) :
+#   print('arnt you getting square eyes?')
+#elif   (score <=2) :
+#   print('that shouldnt rot your brain too much')
+
+#challenge 8
+# = int(input("Please enter your grade"))
+#if score >=75 :
+#  print ("A")
+#elif score >=60 :
+#  print ("B")
+#elif score >=35:
+#  print ("C")
+#elif score >=1:
+#  print("D")
+
+#challenge 10
+
+#challenge 11
+#string1 = input("enter a sentence :")
+#length = len(string1)
+#print (length)
+#print(type(length))
+
+#challenge 12
+#string1 = input("enter a sentence :")
+#string1 = string1.upper()
+#print(string1)
+
+#challeng 15 
+#string1 = input("enter a sentence :")
+#string1 = string1.lower()
+#print(string1)
+
+#challenge 18
+#number=int(input("enter number:"))
+#print("multiplication of ", number)
+#if number < 0:
+#  print("this program dose not exept negative numbers")
+#else:
+#  for i in range (13):
+#     print (i,"x",number,"=",number*i)
+
+  #challenge 16
+#counter = 1
+#while counter <11:
+#  print(counter)
+#  counter+=1
