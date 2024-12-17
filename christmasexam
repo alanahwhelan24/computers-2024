@@ -1,0 +1,43 @@
+#q16a hl
+#Enter name: alanah
+def display_intro():
+    print("Welcome to my BMI calculator!")  #v
+w = int(input("Enter weight (in kilograms): ")) #read wheight   #i
+h = int(input("enter height (in centemeters):"))   # ii
+
+bmi = w / (h * h) * 10000  #iv
+if bmi in range (100) :    #vi
+    bmi (0,18.500000000000000)
+     print("under weight")
+    
+    bmi (30, 100)
+    print("obese")
+   
+    bmi (25,29.900000000000000)
+    print(" over weight")
+    
+    bmi (18.5,24.900000000000000)
+    print("normal")
+
+print("BMI is: ", bmi)
+
+
+
+
+
+#16b  
+from random import *
+
+
+#Loop to build up the lists with random values
+
+for count in range(10):
+    heights = [] #an empty list of heights
+    weights = [] #an empty list of weights
+    # a random integer between 150 and 210
+    heights.append(randint(150, 210))
+    print("height:", heights.append)
+    # a random integer between 50 and 130
+    weights.append(randint(50, 130))
+    print("weight:", weights.append)
+    
